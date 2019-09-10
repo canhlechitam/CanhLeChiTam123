@@ -52,10 +52,20 @@
             android:layout_width="248dp"
             android:layout_height="wrap_content"
             android:text="Lưu thông tin" />
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đăng Nhập" />
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Thoát" />
+    </LinearLayout>
 
 </LinearLayout>
